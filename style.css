@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-content {
+    align-content: space-between;
+    gap: 8px;
+}
+
+.btn-cl {
+  border-color: #f44336;
+  color: red;
+}
+
+.btn-cl:hover {
+  background: #f44336;
+  color: white;
+}
